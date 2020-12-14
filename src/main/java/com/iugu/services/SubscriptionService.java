@@ -33,6 +33,8 @@ public class SubscriptionService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
 
@@ -50,6 +52,8 @@ public class SubscriptionService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
@@ -69,6 +73,8 @@ public class SubscriptionService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
 
@@ -86,6 +92,8 @@ public class SubscriptionService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
@@ -105,6 +113,8 @@ public class SubscriptionService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
 
@@ -122,6 +132,8 @@ public class SubscriptionService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
@@ -141,6 +153,8 @@ public class SubscriptionService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
 
@@ -159,6 +173,8 @@ public class SubscriptionService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);
 
@@ -176,6 +192,8 @@ public class SubscriptionService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(SubscriptionResponse.class);

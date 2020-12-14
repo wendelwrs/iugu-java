@@ -28,6 +28,8 @@ public class PlanService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(PlanResponse.class);
 
@@ -45,6 +47,8 @@ public class PlanService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(PlanResponse.class);
@@ -64,6 +68,8 @@ public class PlanService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(PlanResponse.class);
 
@@ -81,6 +87,8 @@ public class PlanService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(PlanResponse.class);
@@ -100,6 +108,8 @@ public class PlanService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(PlanResponse.class);

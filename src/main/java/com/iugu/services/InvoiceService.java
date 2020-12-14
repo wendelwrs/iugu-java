@@ -35,6 +35,8 @@ public class InvoiceService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(InvoiceResponse.class);
 
@@ -52,6 +54,8 @@ public class InvoiceService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(InvoiceResponse.class);
@@ -75,6 +79,8 @@ public class InvoiceService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(InvoiceResponse.class);
@@ -101,6 +107,8 @@ public class InvoiceService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (response.getStatus() == 200)
 			return response.readEntity(InvoiceResponse.class);
 
@@ -119,6 +127,8 @@ public class InvoiceService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(InvoiceResponse.class);
 
@@ -136,6 +146,8 @@ public class InvoiceService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(InvoiceResponse.class);
@@ -156,6 +168,8 @@ public class InvoiceService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(InvoiceResponse.class);
 
@@ -173,6 +187,8 @@ public class InvoiceService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(InvoiceResponse.class);

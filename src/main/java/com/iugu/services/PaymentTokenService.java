@@ -24,6 +24,8 @@ public class PaymentTokenService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(PaymentTokenResponse.class);
 

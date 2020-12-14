@@ -27,6 +27,8 @@ public class CustomerService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(CustomerResponse.class);
 
@@ -44,6 +46,8 @@ public class CustomerService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(CustomerResponse.class);
@@ -63,6 +67,8 @@ public class CustomerService {
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
 
+		response.bufferEntity();
+
 		if (ResponseStatus == 200)
 			return response.readEntity(CustomerResponse.class);
 
@@ -80,6 +86,8 @@ public class CustomerService {
 
 		int ResponseStatus = response.getStatus();
 		String ResponseText = null;
+
+		response.bufferEntity();
 
 		if (ResponseStatus == 200)
 			return response.readEntity(CustomerResponse.class);

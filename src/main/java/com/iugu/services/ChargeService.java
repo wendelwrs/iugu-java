@@ -24,6 +24,8 @@ public class ChargeService {
         int ResponseStatus = response.getStatus();
         String ResponseText = null;
 
+        response.bufferEntity();
+
         if (ResponseStatus == 200)
             return response.readEntity(ChargeResponse.class);
 
